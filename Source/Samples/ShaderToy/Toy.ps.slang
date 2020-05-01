@@ -41,7 +41,8 @@ float2 rand2(in float2 p)
     return frac(float2(sin(p.x * 591.32 + p.y * 154.077), cos(p.x * 391.32 + p.y * 49.077)));
 }
 
-#define v4DarkRed float4(0.2, 0.1, 0.1, 1.0)
+//Set the blue component to 0.9
+#define v4DarkRed float4(0.2, 0.9, 0.1, 1.0)
 #define v4LightRed float4(0.7, 0.1, 0.1, 1.0)
 
 float4 getRBCColor(float x)
