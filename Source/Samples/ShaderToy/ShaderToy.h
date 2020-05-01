@@ -27,6 +27,7 @@
  **************************************************************************/
 #pragma once
 #include "Falcor.h"
+//Another machine made change
 using namespace Falcor;
 
 class ShaderToy : public IRenderer
