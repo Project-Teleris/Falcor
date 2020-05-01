@@ -27,7 +27,6 @@
  **************************************************************************/
 #pragma once
 #include "Falcor.h"
-//Test submit
 using namespace Falcor;
 
 class ShaderToy : public IRenderer
